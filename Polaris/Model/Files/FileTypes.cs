@@ -11,10 +11,10 @@ namespace Polaris.Models {
 		PPTX,		//!	.pptx
 		DOCX,		//!	.docx
 		PDF,		//!	.pdf
-		TXT,        //!	.txt
-		CPP,        //!	.cpp
-		HPP,        //!	.h
-		INL,        //!	.inl
+		TXT,		//!	.txt
+		CPP,		//!	.cpp
+		HPP,		//!	.h
+		INL,		//!	.inl
 
 		INVALID = -1,
 	}

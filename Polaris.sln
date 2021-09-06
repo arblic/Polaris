@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polaris", "Polaris\Polaris.csproj", "{AAB2AF6B-645C-4207-B57D-6CD91BF9FAB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polaris.Core", "Polaris.Core\Polaris.Core.csproj", "{E13B4D0A-0525-4727-9A92-4A8DEE01B31C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AAB2AF6B-645C-4207-B57D-6CD91BF9FAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAB2AF6B-645C-4207-B57D-6CD91BF9FAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAB2AF6B-645C-4207-B57D-6CD91BF9FAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13B4D0A-0525-4727-9A92-4A8DEE01B31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13B4D0A-0525-4727-9A92-4A8DEE01B31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13B4D0A-0525-4727-9A92-4A8DEE01B31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13B4D0A-0525-4727-9A92-4A8DEE01B31C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

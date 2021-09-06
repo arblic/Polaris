@@ -2,3 +2,5 @@
 packages/
 Polaris/bin/
 Polaris/obj/
+Polaris.Core/bin/
+Polaris.Core/obj/
