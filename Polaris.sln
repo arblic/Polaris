@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polaris", "Polaris\Polaris.csproj", "{AAB2AF6B-645C-4207-B57D-6CD91BF9FAB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E13B4D0A-0525-4727-9A92-4A8DEE01B31C} = {E13B4D0A-0525-4727-9A92-4A8DEE01B31C}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polaris.Core", "Polaris.Core\Polaris.Core.csproj", "{E13B4D0A-0525-4727-9A92-4A8DEE01B31C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{623F97F4-08A8-454A-8E39-86805A166E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polaris.Core", "Core\Polaris.Core\Polaris.Core.csproj", "{E13B4D0A-0525-4727-9A92-4A8DEE01B31C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +29,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E13B4D0A-0525-4727-9A92-4A8DEE01B31C} = {623F97F4-08A8-454A-8E39-86805A166E88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52167ACF-F80F-4505-A0A4-831AB76B6617}

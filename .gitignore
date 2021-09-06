@@ -2,5 +2,7 @@
 packages/
 Polaris/bin/
 Polaris/obj/
-Polaris.Core/bin/
-Polaris.Core/obj/
+Core/Polaris.Core/bin/
+Core/Polaris.Core/obj/
+Core/Debug/
+Core/Release/
